@@ -129,7 +129,7 @@ declare module joint {
         function mixin(objects:any[]):any;
         function supplement(objects:any[]):any;
         function deepMixin(objects:any[]):any;
-        function deepSupplement(objects:any[], defaultIndicator?:any):any;
+        function deepSupplement(objects:any, defaultIndicator?:any):any;
     }
 
 }
